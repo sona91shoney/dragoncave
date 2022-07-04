@@ -10,7 +10,7 @@ public class Dragon {
         System.out.println("Which cave will you go into? (1 or 2)");
         System.out.println("--------------------------------------");
         Scanner xx = new Scanner(System.in);
-
+        // Sample content here committed via git
         int option = xx.nextInt();
         if (option == 1) { // If user selects cave 1
             System.out.println("You approach the cave...\n" +
